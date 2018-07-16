@@ -105,9 +105,9 @@ footer {
 }
 
 #LinkOne {
-    position: relative;
-    top: 4%;
-    left: 1100%;
+    position: fixed;
+    top: 7%;
+    left: 90%;
     color: #777777;
     text-decoration: none;
     font-size: 18px;
@@ -115,9 +115,9 @@ footer {
 }
 
 #LinkTwo {
-    position: relative;
-    top: 4%;
-    left: 638%;
+    position: fixed;
+    top: 7%;
+    left: 85%;
     color: #777777;
     text-decoration: none;
     font-size: 18px;
@@ -127,9 +127,9 @@ footer {
 }
 
 #LinkThree {
-    position: relative;
-    top: 4%;
-    left: 850%;
+    position: fixed;
+    top: 7%;
+    left: 92%;
     color: #777777;
     text-decoration: none;
     font-size: 18px;
