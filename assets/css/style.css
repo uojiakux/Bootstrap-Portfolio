@@ -73,13 +73,13 @@ footer {
 }
 
 #Portfolio_Body {
-    height: 830px;
+    height: 1100px;
 }
 
 #Title {
     position: relative;
     top: 0%;
-    right: -17%;
+    right: 0%;
     display: block;
     width: 387px;
     background-color: #4aaaa5;
@@ -144,94 +144,29 @@ footer {
     margin: 20px;
 }
 
-/* .Pictures {
-    /* max-width: 280px; */
-    /* margin-top: 10px;
-    z-index: 1;
-} */ 
-
-/* .imgwrapper {
-    max-width: 280px;
-} */
-
-#RPG {
+#Pictures {
     position: relative;
-    left: 0px;
-    bottom: 69px;
-    margin-top: 10px;
+    float: left;
+    margin: 18px 0px 25px 25px;
+    overflow: auto;
     z-index: 1;
 }
 
-#Rutgers {
-    position: relative;
-    left: 310px;
-    bottom: 899px;
-    margin-top: 10px;
-    z-index: 1;
-}
-
-#Rock {
-    position: relative;
-    left: 310px;
-    bottom: 969px;
-    margin-top: 10px;
-    z-index: 1;
-}
-
-#Trivia {
-    position: relative;
-    left: 0px;
-    bottom: 136px;
-    margin-top: 10px;
-    z-index: 1;
-}
-
-.Overlay_Text {
-    background-color: #4aaaa5;
-    width: 280px;
+.Overlay {
     text-align: center;
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 1px;
-    padding-right: 1px;
+    background: #4aaaa5;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    width: 350px;
+    padding: 15px;
+    position: relative;
+    float: left;
+    left: 10px;
+    bottom: -148px;
+    margin: 18px 11px 30px -360px;
     z-index: 2;
-}
-
-#HangmanOverlay {
-    position: relative;
-    bottom: 114px;
-    left: -1px;
-}
-
-#TriviaOverlay {
-    position: relative;
-    bottom: 496px;
-    left: -1px;
-}
-
-#RockOverlay {
-    position: relative;
-    bottom: 876px;
-    left: -1px;
-}
-
-#RPGOverlay {
-    position: relative;
-    bottom: 414px;
-    left: 310px;
-}
-
-#RutgersOverlay {
-    position: relative;
-    bottom: 795px;
-    left: 310px;
-}
-
-p.Text {
-    color: white;
-    text-align: center;
-}
+  }
 
 button {
     margin-top: 10px;
