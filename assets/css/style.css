@@ -21,6 +21,7 @@ a {
 
 header {
     background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
     margin-top: 0px;
     margin-bottom: 8px;
     padding: 6px;
@@ -61,7 +62,7 @@ footer {
 /* Middle White Container  */
 
 .Body {
-    width: 960px;
+    /* width: 960px; */
     background-color: #ffffff;
     padding: 25px;
     margin-left: auto;
@@ -78,20 +79,19 @@ footer {
 #Title {
     position: relative;
     top: 0%;
-    right: -85%;
+    right: -17%;
     display: block;
-    width: 260px;
+    width: 387px;
     background-color: #4aaaa5;
     text-align: center;
-    margin-left: 122px;
-    margin-top: -14px;
-    margin-bottom: -21px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
+    margin-left: 77px;
+    margin-top: -7px;
+    margin-bottom: -6px;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    padding-left: 38px;
+    padding-right: 38px;
     color: white;
-    font-size: 29px;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -189,24 +189,24 @@ footer {
 #HangmanOverlay {
     position: relative;
     bottom: 114px;
-    left: 0px;
+    left: -1px;
 }
 
 #TriviaOverlay {
     position: relative;
     bottom: 496px;
-    left: 0px;
+    left: -1px;
 }
 
 #RockOverlay {
     position: relative;
     bottom: 876px;
-    left: 0px;
+    left: -1px;
 }
 
 #RPGOverlay {
     position: relative;
-    bottom: 413px;
+    bottom: 414px;
     left: 310px;
 }
 
